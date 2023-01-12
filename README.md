@@ -17,8 +17,9 @@ cd experiments
 python main_ir.py --dataset <dataset> --mode <mode> --reproduce
 ```
 
-dataset can be one in [swat,batadal,kddcup99,gaspipeline,annthyroid,cardio].
-mode can be one in [DTImpurity,UniformBins,KmeansBins]
+dataset can be swat, batadal, kddcup99, gaspipeline, annthyroid or cardio.
+
+mode can be DTImpurity, UniformBins, KmeansBins.
 
 #### Run the PUMP experiment
 
