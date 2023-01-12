@@ -28,16 +28,28 @@ cd experiments
 python main_ir.py --dataset <dataset> --mode <mode> --theta <theta> --gamma <gamma>
 ```
 
-#### Run the WADI experiment
+#### Run experiments for baselines
 
 ```shell
 cd experiments
-python WADI_experiement.py
 ```
 
-#### Run the SWAT experiment
-
+LOF:
 ```shell
-cd experiments
-python SWAT_experiement.py
+python main_lof.py --dataset <dataset>
+```
+
+IF:
+```shell
+python main_if.py --dataset <dataset>
+```
+
+AE:
+```shell
+python main_ae.py --dataset <dataset>
+```
+
+DeepSVDD:
+```shell
+python main_deepsvdd.py --dataset <dataset>
 ```
