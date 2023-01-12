@@ -10,12 +10,15 @@
 pip install -r requirements.txt
 ```
 
-#### Run the qualitative experiment
+#### Reproduce results for invariant rule-based anomaly detection
 
 ```shell
 cd experiments
-python qualitative_experiment.py
+python main_ir.py --dataset <dataset> --mode <mode> --reproduce
 ```
+
+dataset can be one in [swat,batadal,kddcup99,gaspipeline,annthyroid,cardio].
+mode can be one in [DTImpurity,UniformBins,KmeansBins]
 
 #### Run the PUMP experiment
 
