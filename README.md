@@ -21,11 +21,11 @@ Specify dataset to one of the following: swat, batadal, kddcup99, gaspipeline, a
 
 Specify mode to one of the following: DTImpurity, UniformBins or KmeansBins.
 
-#### Run the PUMP experiment
+#### Run new experiments for invariant rule-based anomaly detection
 
 ```shell
 cd experiments
-python PUMP_experiement.py
+python main_ir.py --dataset <dataset> --mode <mode> --theta <theta> --gamma <gamma>
 ```
 
 #### Run the WADI experiment
